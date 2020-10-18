@@ -1,12 +1,15 @@
 #include <iostream>
-#include "leetcode/46Permutations.cpp"
+#include "leetcode/51NQueens.cpp"
 using namespace std;
 
 int main()
 {
     Solution s;
-    vector<int > v = {1,2,3};
-    auto res = s.permute(v);
+
+
+        auto res = s.solveNQueens(11);
+        s.printBoard();
+
 
     cout << "hello, world" << endl;
     return 0;
