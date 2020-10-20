@@ -1,16 +1,11 @@
 #include <iostream>
-#include "leetcode/51NQueens.cpp"
+#include "leetcode/111MinimumDepthofBinaryTree.cpp"
+
 using namespace std;
 
 int main()
 {
-    Solution s;
-
-
-        auto res = s.solveNQueens(11);
-        s.printBoard();
-
-
+    test();
     cout << "hello, world" << endl;
     return 0;
 }
