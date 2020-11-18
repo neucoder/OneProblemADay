@@ -5,7 +5,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Set;
 
-class Solution {
+class Solution752 {
     public int openLock(String[] deadends, String target) {
 
         Queue<String> q = new LinkedList<>();
@@ -82,7 +82,7 @@ class Solution {
 public class OpentheLock752 {
     public static void main(String[] args) {
         String[] deads = {"8888"};//{"0201","0101","0102","1212","2002"};
-        Solution s = new Solution();
+        Solution752 s = new Solution752();
         int i = s.openLock(deads, "0009");
         System.out.println(i);
         System.out.println("hello, world");
