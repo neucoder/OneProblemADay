@@ -6,6 +6,7 @@ import com.leetcode.utils.ConstructData;
 import java.util.ArrayList;
 import java.util.Arrays;
 
+
 class Solution116 {
     public Node connect(Node root) {
         if(root==null){
