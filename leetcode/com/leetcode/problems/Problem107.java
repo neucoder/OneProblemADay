@@ -45,6 +45,7 @@ class Solution107 {
 }
 
 public class Problem107 {
+
     public static void main(String[] args) {
         LinkedList<Integer> integers = new LinkedList<>();
         integers.add(0,4);
