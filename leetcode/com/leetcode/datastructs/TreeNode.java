@@ -1,12 +1,21 @@
 package com.leetcode.datastructs;
 
 public class TreeNode {
-    public int  val;
+    public int val;
     public TreeNode left;
     public TreeNode right;
 
-    public TreeNode(){}
+    public TreeNode() {
+    }
+
     public TreeNode(int x) {
         val = x;
+    }
+
+
+    TreeNode(int val, TreeNode left, TreeNode right) {
+        this.val = val;
+        this.left = left;
+        this.right = right;
     }
 }

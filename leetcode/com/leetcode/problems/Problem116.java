@@ -1,10 +1,6 @@
 package com.leetcode.problems;
 
 import com.leetcode.datastructs.Node;
-import com.leetcode.utils.ConstructData;
-
-import java.util.ArrayList;
-import java.util.Arrays;
 
 
 class Solution116 {
@@ -33,9 +29,9 @@ public class Problem116 {
     public static void main(String[] args) {
 
         Solution116 s = new Solution116();
-        ArrayList<Integer> integers = new ArrayList<>(Arrays.asList(1,2,3,4,5,6,7));
-        Node node = ConstructData.buildNodeTree(integers);
-        Node connect = s.connect(node);
+        //ArrayList<Integer> integers = new ArrayList<>(Arrays.asList(1,2,3,4,5,6,7));
+        //Node node = ConstructData.createTree(integers);
+        //Node connect = s.connect(node);
 
         System.out.println("hello,world");
     }

@@ -1,7 +1,6 @@
 package com.leetcode.problems;
 
 import com.leetcode.datastructs.TreeNode;
-import com.leetcode.utils.ConstructData;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -37,10 +36,10 @@ public class FlattenBinaryTreetoLinkedList114 {
 
 
         ArrayList<Integer> integers = new ArrayList<Integer>(Arrays.asList(1,2,5,3,4,null,6));
-        TreeNode treeNode = ConstructData.buildTree(integers);
+        //TreeNode treeNode = ConstructData.buildTree(integers);
 
-        Solution114 s = new Solution114();
-        s.flatten(treeNode);
+        //Solution114 s = new Solution114();
+        //s.flatten(treeNode);
 
         System.out.println("Hello, world");
     }
