@@ -1,4 +1,4 @@
-package newcoder.offer;
+package newcoder.offer.three;
 
 import java.util.Arrays;
 

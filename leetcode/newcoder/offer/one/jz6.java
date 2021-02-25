@@ -1,4 +1,4 @@
-package newcoder.offer;
+package newcoder.offer.one;
 
 public class jz6 {
     public class Solution {

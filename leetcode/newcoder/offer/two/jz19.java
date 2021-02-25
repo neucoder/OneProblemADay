@@ -1,4 +1,4 @@
-package newcoder.offer;
+package newcoder.offer.two;
 
 import java.util.ArrayList;
 

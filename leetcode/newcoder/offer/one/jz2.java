@@ -1,8 +1,8 @@
-package newcoder.offer;
+package newcoder.offer.one;
 
 public class jz2 {
 
-    public String replaceSpace(StringBuffer str) {
+    public String replaceSpace(String str) {
         StringBuilder sb = new StringBuilder();
         for(int i=0;i<str.length();i++)
         {

@@ -1,4 +1,4 @@
-package newcoder.offer;
+package newcoder.offer.three;
 
 public class jz23 {
     public class Solution {
