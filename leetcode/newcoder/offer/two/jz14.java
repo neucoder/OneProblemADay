@@ -11,17 +11,17 @@ public class jz14 {
         }
     }
     public class Solution {
-        public ListNode FindKthToTail(ListNode head,int k) {
+        public ListNode FindKthToTail(ListNode pHead,int k) {
             int len = 0;
 
-            ListNode p1 = head;
-            ListNode p2 = head;
+            ListNode p1 = pHead;
+            ListNode p2 = pHead;
             while (p1!=null)
             {
                 p1=p1.next;
                 len++;
             }
-            p1 = head;
+            p1 = pHead;
             if(k>len){
                 return null;
             }

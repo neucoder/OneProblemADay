@@ -20,31 +20,22 @@ public class jz24 {
         ArrayList<Integer> list = new ArrayList<>();
         ArrayList<ArrayList<Integer>> res = new ArrayList<ArrayList<Integer>>();
         public ArrayList<ArrayList<Integer>> FindPath(TreeNode root, int target) {
-            list.clear();
-            ArrayList<Integer> integers = FindPathOne(root, target);
-            if(integers!=null){
-                res.add(integers);
+            if(root==null){
+                return res;
+            }
+            list.add(root.val);
+            target-=root.val;
+            if(target==0&&root.left==null&&root.right==null){
+                res.add(new ArrayList<>(list));
             }
             FindPath(root.left, target);
             FindPath(root.right, target);
-            return null;
+            list.remove(list.size()-1);
+            return res;
+
         }
 
-        public ArrayList<Integer> FindPathOne(TreeNode root, int target) {
-            if(root==null){
-                return null;
-            }
 
-            list.add(root.val);
-            if(root.val==target){
-                return list;
-            }
-            ArrayList<Integer> left = FindPathOne(root.left, target - root.val);
-            ArrayList<Integer> right = FindPathOne(root.right, target - root.val);
-
-
-            return left!=null ? left : right;
-        }
     }
 
     public static void main(String[] args) {
