@@ -6,6 +6,7 @@ import java.util.Map;
 
 public class coinCharge {
 
+    //凑硬币
     public int coinChange(int[] coins, int amount) {
         Map<Integer, Integer> memo = new HashMap<>();
         return dp(coins, amount, memo);
