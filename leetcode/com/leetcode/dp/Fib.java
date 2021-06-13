@@ -1,7 +1,6 @@
 package com.leetcode.dp;
 
 import java.util.HashMap;
-
 public class Fib {
 
 //    常规的递归，非常耗时
@@ -44,6 +43,7 @@ public class Fib {
         System.out.println(i);
         int i1 = fib.fib1(45);
         System.out.println(i1);
-
+        int res = 0x7fffffff;
+        System.out.println(res);
     }
 }
